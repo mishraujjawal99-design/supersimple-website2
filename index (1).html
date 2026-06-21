@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>ResumeAI — AI-Powered Resume Review & ATS Optimization</title>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet"/>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- NAV -->
+<nav>
+  <div class="logo"><span class="logo-dot"></span>ResumeAI</div>
+  <div class="nav-links">
+    <a href="#features">Features</a>
+    <a href="#how-it-works">How It Works</a>
+    <a href="#testimonials">Reviews</a>
+    <a href="#faq">FAQ</a>
+    <a href="#" class="nav-cta">🚀 Get Started</a>
+  </div>
+</nav>
+
+<!-- HERO -->
+<section class="hero">
+  <div class="hero-badge">✦ <span>AI-Powered</span> &nbsp;Resume Intelligence Platform</div>
+  <h1 class="fade-up">Your Resume,<br><em>Optimized by AI</em></h1>
+  <p class="fade-up delay-1">Get instant AI-powered feedback to improve your resume and increase your interview chances.</p>
+  <div class="hero-btns fade-up delay-2">
+    <a href="#" class="btn-primary">🚀 Review My Resume</a>
+    <a href="#" class="btn-secondary">📄 View Sample Report</a>
+  </div>
+
+  <div class="hero-visual fade-up delay-3">
+    <div style="position:relative; display:inline-block; width:100%; max-width:860px;">
+      <!-- Floating badges -->
+      <div class="float-badge left">
+        <span class="fb-icon">✅</span>
+        <div>
+          <div style="font-size:0.7rem;color:rgba(255,255,255,0.5);">ATS Check</div>
+          <div>Passed</div>
+        </div>
+      </div>
+      <div class="float-badge right">
+        <span class="fb-icon">🎯</span>
+        <div>
+          <div style="font-size:0.7rem;color:rgba(255,255,255,0.5);">Match Rate</div>
+          <div>87% Keywords</div>
+        </div>
+      </div>
+
+      <div class="laptop-frame">
+        <div class="laptop-notch"></div>
+        <div class="dashboard">
+          <!-- Sidebar -->
+          <div class="dash-sidebar">
+            <div class="dash-score-ring">
+              <div class="score-circle">
+                <svg width="100" height="100" viewBox="0 0 100 100">
+                  <circle cx="50" cy="50" r="44" fill="none" stroke="rgba(255,255,255,0.06)" stroke-width="8"/>
+                  <circle cx="50" cy="50" r="44" fill="none" stroke="url(#sg)" stroke-width="8"
+                    stroke-linecap="round" stroke-dasharray="276.5" stroke-dashoffset="22"/>
+                  <defs>
+                    <linearGradient id="sg" x1="0%" y1="0%" x2="100%" y2="0%">
+                      <stop offset="0%" stop-color="#3b6ef8"/>
+                      <stop offset="100%" stop-color="#a78bfa"/>
+                    </linearGradient>
+                  </defs>
+                </svg>
+                <div class="score-num">92<span>/100</span></div>
+              </div>
+              <div class="score-title">Resume Score</div>
+              <div class="score-label">Excellent</div>
+            </div>
+            <div class="sidebar-metric">
+              <span class="m-label">ATS Compat.</span>
+              <span class="m-val green">96%</span>
+            </div>
+            <div class="sidebar-metric">
+              <span class="m-label">Keywords</span>
+              <span class="m-val blue">87%</span>
+            </div>
+            <div class="sidebar-metric">
+              <span class="m-label">Formatting</span>
+              <span class="m-val green">Optimal</span>
+            </div>
+            <div class="sidebar-metric">
+              <span class="m-label">Skills Match</span>
+              <span class="m-val yellow">91%</span>
+            </div>
+            <div class="sidebar-metric">
+              <span class="m-label">Readability</span>
+              <span class="m-val green">High</span>
+            </div>
+          </div>
+
+          <!-- Top cards -->
+          <div class="dash-top">
+            <div class="dash-card">
+              <div class="dc-label">ATS Score</div>
+              <div class="dc-val">96%</div>
+              <div class="dc-bar"><div class="dc-fill fill-blue" style="width:96%"></div></div>
+            </div>
+            <div class="dash-card">
+              <div class="dc-label">Keyword Hit</div>
+              <div class="dc-val">87%</div>
+              <div class="dc-bar"><div class="dc-fill fill-purple" style="width:87%"></div></div>
+            </div>
+            <div class="dash-card">
+              <div class="dc-label">Skills Match</div>
+              <div class="dc-val">91%</div>
+              <div class="dc-bar"><div class="dc-fill fill-green" style="width:91%"></div></div>
+            </div>
+          </div>
+
+          <!-- Recommendations -->
+          <div class="dash-bottom">
+            <div class="db-title">🤖 AI Recommendations</div>
+            <div class="rec-item">
+              <div class="rec-dot" style="background:#3b6ef8"></div>
+              <p><strong>Add quantified achievements</strong> — Measurable results increase ATS ranking by 34%</p>
+            </div>
+            <div class="rec-item">
+              <div class="rec-dot" style="background:#7c3aed"></div>
+              <p><strong>Include "Python" keyword</strong> — Found in 89% of matching job descriptions</p>
+            </div>
+            <div class="rec-item">
+              <div class="rec-dot" style="background:#10b981"></div>
+              <p><strong>Optimize summary section</strong> — Use action verbs to improve impact score</p>
+            </div>
+            <div class="rec-item">
+              <div class="rec-dot" style="background:#f59e0b"></div>
+              <p><strong>Adjust section order</strong> — Skills section should precede experience for ATS</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="laptop-base"></div>
+      <div class="laptop-stand"></div>
+    </div>
+  </div>
+</section>
+
+<!-- STATS -->
+<div class="stats-bar">
+  <div class="stats-inner">
+    <div class="stat-item"><div class="stat-num">25K+</div><div class="stat-label">Resumes Analyzed</div></div>
+    <div class="stat-item"><div class="stat-num">15K+</div><div class="stat-label">Job Seekers Assisted</div></div>
+    <div class="stat-item"><div class="stat-num">94%</div><div class="stat-label">User Satisfaction</div></div>
+    <div class="stat-item"><div class="stat-num">4.9/5</div><div class="stat-label">Average Rating</div></div>
+    <div class="stat-item"><div class="stat-num">50+</div><div class="stat-label">Industries Supported</div></div>
+    <div class="stat-item"><div class="stat-num">120+</div><div class="stat-label">Countries Reached</div></div>
+  </div>
+  <div class="trust-text">⭐ Trusted by professionals worldwide</div>
+</div>
+
+<!-- FEATURES -->
+<section class="features" id="features">
+  <div class="container">
+    <div class="centered">
+      <div class="section-eyebrow">Platform Features</div>
+      <h2 class="section-title">Everything your resume needs<br>to <em>stand out</em></h2>
+      <p class="section-sub">Comprehensive AI analysis covering every dimension of what makes a resume land interviews.</p>
+    </div>
+    <div class="features-grid">
+      <div class="feature-card">
+        <div class="feature-icon">🤖</div>
+        <h3>AI Resume Analysis</h3>
+        <p>Get a detailed review of your resume in seconds with actionable improvement suggestions tailored to your goals.</p>
+      </div>
+      <div class="feature-card">
+        <div class="feature-icon">🎯</div>
+        <h3>ATS Compatibility Check</h3>
+        <p>Ensure your resume passes Applicant Tracking Systems used by 99% of Fortune 500 employers.</p>
+      </div>
+      <div class="feature-card">
+        <div class="feature-icon">✨</div>
+        <h3>Personalized Recommendations</h3>
+        <p>Receive tailored feedback based on your skills, experience, and the specific role you're targeting.</p>
+      </div>
+      <div class="feature-card">
+        <div class="feature-icon">🔑</div>
+        <h3>Keyword Optimization</h3>
+        <p>Identify missing keywords from job descriptions and improve your chances of passing automated screening.</p>
+      </div>
+      <div class="feature-card">
+        <div class="feature-icon">📊</div>
+        <h3>Resume Score</h3>
+        <p>Get an overall resume score with clear, actionable insights on both strengths and areas for improvement.</p>
+      </div>
+      <div class="feature-card">
+        <div class="feature-icon">⚡</div>
+        <h3>Instant Feedback</h3>
+        <p>No waiting. Upload your resume and receive comprehensive professional feedback in under 60 seconds.</p>
+      </div>
+      <div class="feature-card">
+        <div class="feature-icon">🏢</div>
+        <h3>Industry-Specific Insights</h3>
+        <p>Optimize for technology, marketing, finance, healthcare, education, and 50+ more industries.</p>
+      </div>
+      <div class="feature-card">
+        <div class="feature-icon">📐</div>
+        <h3>Formatting Suggestions</h3>
+        <p>Improve readability, structure, and visual presentation to make a strong first impression.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- HOW IT WORKS -->
+<section class="how-it-works" id="how-it-works">
+  <div class="container">
+    <div class="centered">
+      <div class="section-eyebrow">The Process</div>
+      <h2 class="section-title">From upload to optimized<br>in <em>under a minute</em></h2>
+      <p class="section-sub centered" style="color:rgba(255,255,255,0.55);">Four simple steps between you and a resume that gets noticed.</p>
+    </div>
+    <div class="steps-grid">
+      <div class="step">
+        <div class="step-num">1</div>
+        <h3>Upload Your Resume</h3>
+        <p>Upload your resume in PDF or DOCX format. No account required to get started.</p>
+      </div>
+      <div class="step">
+        <div class="step-num">2</div>
+        <h3>AI Analyzes Everything</h3>
+        <p>Our AI scans structure, keywords, formatting, and ATS compatibility in real time.</p>
+      </div>
+      <div class="step">
+        <div class="step-num">3</div>
+        <h3>Receive Your Report</h3>
+        <p>Get a detailed report with scores, recommendations, and specific improvement suggestions.</p>
+      </div>
+      <div class="step">
+        <div class="step-num">4</div>
+        <h3>Apply With Confidence</h3>
+        <p>Optimize your resume and apply knowing it's built to pass screening and impress recruiters.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- BENEFITS -->
+<section class="benefits">
+  <div class="container">
+    <div class="benefits-grid">
+      <div class="benefits-left">
+        <div class="section-eyebrow">Why ResumeAI</div>
+        <h2 class="section-title">Built for job seekers<br>who want <em>results</em></h2>
+        <p class="section-sub">Stop guessing what's holding your resume back. Get answers and act on them.</p>
+        <ul class="benefits-list">
+          <li><span class="check-icon">✓</span>Instant results — no waiting, no queues</li>
+          <li><span class="check-icon">✓</span>ATS-friendly analysis trusted by recruiters</li>
+          <li><span class="check-icon">✓</span>Actionable recommendations, not vague tips</li>
+          <li><span class="check-icon">✓</span>Professional-grade insights at your fingertips</li>
+          <li><span class="check-icon">✓</span>Secure, confidential, no data sharing</li>
+          <li><span class="check-icon">✓</span>Clean, easy-to-use interface — no learning curve</li>
+        </ul>
+      </div>
+      <div class="benefits-right">
+        <div class="benefit-outcome">
+          <div class="outcome-icon">📈</div>
+          <div class="outcome-text">
+            <strong>More Interview Invitations</strong>
+            <span>Optimized resumes land 3× more interview callbacks on average</span>
+          </div>
+        </div>
+        <div class="benefit-outcome">
+          <div class="outcome-icon">🤖</div>
+          <div class="outcome-text">
+            <strong>Pass ATS Filters</strong>
+            <span>75% of resumes never reach a human — make sure yours does</span>
+          </div>
+        </div>
+        <div class="benefit-outcome">
+          <div class="outcome-icon">🏆</div>
+          <div class="outcome-text">
+            <strong>Highlight Key Achievements</strong>
+            <span>Learn how to quantify impact and make your experience shine</span>
+          </div>
+        </div>
+        <div class="benefit-outcome">
+          <div class="outcome-icon">🛠️</div>
+          <div class="outcome-text">
+            <strong>Fix Formatting Issues</strong>
+            <span>Eliminate problems that cause ATS systems to misread your data</span>
+          </div>
+        </div>
+        <div class="benefit-outcome">
+          <div class="outcome-icon">⏱️</div>
+          <div class="outcome-text">
+            <strong>Save Hours of Work</strong>
+            <span>Get in minutes what would take hours of manual review</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- TESTIMONIALS -->
+<section class="testimonials" id="testimonials">
+  <div class="container">
+    <div class="centered">
+      <div class="section-eyebrow">User Reviews</div>
+      <h2 class="section-title">Job seekers who got <em>results</em></h2>
+      <p class="section-sub centered">Real feedback from professionals who transformed their job search.</p>
+    </div>
+    <div class="test-grid">
+      <div class="test-card">
+        <div class="stars">★★★★★</div>
+        <p>"The ATS suggestions were incredibly accurate. I updated my resume and immediately started receiving more interview invitations."</p>
+        <div class="test-author">
+          <div class="author-avatar">MT</div>
+          <div>
+            <div class="author-name">Michael T.</div>
+            <div class="author-role">Product Manager</div>
+          </div>
+        </div>
+      </div>
+      <div class="test-card">
+        <div class="stars">★★★★★</div>
+        <p>"The feedback was clear, actionable, and much better than generic online resume checkers I'd tried before."</p>
+        <div class="test-author">
+          <div class="author-avatar">ER</div>
+          <div>
+            <div class="author-name">Emily R.</div>
+            <div class="author-role">Marketing Specialist</div>
+          </div>
+        </div>
+      </div>
+      <div class="test-card">
+        <div class="stars">★★★★★</div>
+        <p>"I discovered several issues with my resume that I had overlooked for years. Wish I'd found this tool sooner."</p>
+        <div class="test-author">
+          <div class="author-avatar">JK</div>
+          <div>
+            <div class="author-name">James K.</div>
+            <div class="author-role">Software Engineer</div>
+          </div>
+        </div>
+      </div>
+      <div class="test-card">
+        <div class="stars">★★★★★</div>
+        <p>"The resume score and keyword recommendations helped me tailor my application and land my dream role."</p>
+        <div class="test-author">
+          <div class="author-avatar">SW</div>
+          <div>
+            <div class="author-name">Sophia W.</div>
+            <div class="author-role">Data Analyst</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FAQ -->
+<section class="faq" id="faq">
+  <div class="container">
+    <div class="centered">
+      <div class="section-eyebrow">Common Questions</div>
+      <h2 class="section-title">Everything you need<br>to <em>know</em></h2>
+    </div>
+    <div class="faq-grid">
+      <div class="faq-item">
+        <h3>How does the AI Resume Review work?</h3>
+        <p>Upload your resume and our AI analyzes structure, content, formatting, and ATS compatibility. You receive a detailed report with actionable recommendations in under a minute.</p>
+      </div>
+      <div class="faq-item">
+        <h3>What file formats do you support?</h3>
+        <p>We support PDF and DOCX formats — the two most common resume formats accepted by employers and ATS systems.</p>
+      </div>
+      <div class="faq-item">
+        <h3>Will this help me pass ATS systems?</h3>
+        <p>Yes. We identify ATS compatibility issues and suggest precise improvements to increase the likelihood your resume reaches a human recruiter.</p>
+      </div>
+      <div class="faq-item">
+        <h3>Is my resume data secure?</h3>
+        <p>Absolutely. Your resume is processed securely and remains confidential. We never share or sell your data to third parties.</p>
+      </div>
+      <div class="faq-item">
+        <h3>Can I upload multiple versions?</h3>
+        <p>Yes. Upload updated versions as you make improvements and track your score progress over time.</p>
+      </div>
+      <div class="faq-item">
+        <h3>Is it suitable for students and fresh graduates?</h3>
+        <p>Absolutely. The platform works for all experience levels — from first-time applicants to senior executives.</p>
+      </div>
+      <div class="faq-item">
+        <h3>Does the platform rewrite my resume?</h3>
+        <p>It provides specific, actionable recommendations while keeping you in full control of your final edits and personal voice.</p>
+      </div>
+      <div class="faq-item">
+        <h3>What industries does it cover?</h3>
+        <p>Technology, marketing, finance, healthcare, education, legal, and 50+ more industries with role-specific keyword insights.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FINAL CTA -->
+<section class="final-cta">
+  <div class="container" style="position:relative;z-index:1;">
+    <div class="section-eyebrow" style="color:var(--purple-300);background:rgba(196,181,253,0.1);border-color:rgba(196,181,253,0.2);">Get Started Today</div>
+    <h2>Ready to Build a<br>Stronger Resume?</h2>
+    <p>Upload your resume and receive instant AI-powered insights, ATS compatibility checks, and personalized recommendations.</p>
+    <div class="hero-btns">
+      <a href="#" class="btn-primary">🚀 Review My Resume</a>
+      <a href="#" class="btn-secondary">📄 View Sample Report</a>
+    </div>
+    <div class="final-badges">
+      <div class="final-badge">⭐ 4.9/5 Average Rating</div>
+      <div class="final-badge">📄 25,000+ Resumes Reviewed</div>
+      <div class="final-badge">🚀 8,500+ Interviews Generated</div>
+      <div class="final-badge">🎯 94% User Satisfaction</div>
+      <div class="final-badge">🌎 120+ Countries</div>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div style="margin-bottom:16px;">
+    <a href="#">Privacy Policy</a>
+    <a href="#">Terms of Service</a>
+    <a href="#">Contact</a>
+    <a href="#">Blog</a>
+  </div>
+  <div>© 2025 ResumeAI. All rights reserved.</div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
